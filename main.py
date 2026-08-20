@@ -100,7 +100,7 @@ HTML_TEMPLATE = """
 <body>
     <div class="card">
         <div class="ribbon">🎀</div>
-        <div class="title">✨ Se me antoja - Kodigo 36 ✨</div>
+        <div class="title">✨Se me antoja - Kodigo 36✨</div>
         <div class="verse-container">
             <p class="verse">{{ verso }}</p>
             {% if es_ultimo %}

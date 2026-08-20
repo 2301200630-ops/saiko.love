@@ -10,7 +10,7 @@ versos = [
     "Mi Amado mío.",
     "Mi química mayor.",
     "Mi Amor completo.",
-    "Mi Flaco 💘."
+    "Mi Flaco. 💘"
 ]
 
 HTML_TEMPLATE = """

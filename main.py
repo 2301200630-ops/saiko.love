@@ -6,13 +6,11 @@ app = Flask(__name__)
 
 # --- TUS VERSOS ---
 versos = [
-    "Se me antoja estar contigo siempre y en cualquier momento.",
-    "Se me antoja que se te antoje quererme tanto.",
-    "Se me antoja recordar tus ojos viendo tu retrato.",
-    "Se me antojan tantas cosas, ya no sé que es lo que quiero.",
-    "Te regalo mi corazón, mejor no porque me muero.",
-    "Se me antoja estar enamorado y llevarte en mi mente, sumergirte en este mar de besos y caricias.",
-    "Solo te pido una noche, compárteme tus caricias."
+    "Te amo mi niño de ojos preciosos.",
+    "Mi Amado mío.",
+    "Mi química mayor.",
+    "Mi Amor completo.",
+    "Mi Flaco 💘."
 ]
 
 HTML_TEMPLATE = """
@@ -21,7 +19,7 @@ HTML_TEMPLATE = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Gael 💕</title>
+    <title>My Love.💕</title>
     <style>
         body {
             background-color: #fce4ec;
@@ -100,7 +98,7 @@ HTML_TEMPLATE = """
 <body>
     <div class="card">
         <div class="ribbon">🎀</div>
-        <div class="title">✨Se me antoja - Kodigo 36✨</div>
+        <div class="title"> 💕 Mi Gael. 💕</div>
         <div class="verse-container">
             <p class="verse">{{ verso }}</p>
             {% if es_ultimo %}
@@ -154,7 +152,7 @@ def cerrar():
     return """
     <script>
         window.close();
-        document.write('<h2 style="color: #ff4d6d; text-align: center; font-family: sans-serif; margin-top: 50px;">¡Gracias por leer! Ya puedes cerrar esta pestañita, Te Amo Mi Amor. 💕</h2>');
+        document.write('<h2 style="color: #ff4d6d; text-align: center; font-family: sans-serif; margin-top: 50px;">¡Gracias por leer! Ya puedes cerrar esta pestañita, Te Amo Mi Gael. 💕</h2>');
     </script>
     """
 
